@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eaf2f8"
+
+    tools:context="com.example.PersonalSkillDevelopment.AnswersActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:text="Scince Quiz"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Level "
+                android:textSize="20dp"
+                android:id="@+id/tvlevel"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Answers "
+                    android:textSize="24dp"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="21sp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/true1"
+                    android:layout_marginRight="5dp"
+                    android:visibility="gone"
+                    android:src="@drawable/ic_check_black_24dp"
+
+                    android:layout_height="21sp" />
+                <ImageView
+                    android:layout_width="21sp"
+                    android:visibility="gone"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/false1"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/ic_close_black_24dp"
+
+                    android:layout_height="21sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="21dp"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/tvoption1"
+                    android:layout_marginTop="20dp"
+                    android:text="option 1"/>
+            </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="21sp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/true2"
+                android:layout_marginRight="5dp"
+                android:visibility="gone"
+                android:src="@drawable/ic_check_black_24dp"
+
+                android:layout_height="21sp" />
+            <ImageView
+                android:layout_width="21sp"
+                android:visibility="gone"
+                android:layout_marginTop="20dp"
+                android:id="@+id/false2"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_close_black_24dp"
+
+                android:layout_height="21sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="21dp"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/tvoption2"
+                    android:layout_marginTop="20dp"
+                    android:text="option 2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="21sp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/true3"
+                android:layout_marginRight="5dp"
+                android:visibility="gone"
+                android:src="@drawable/ic_check_black_24dp"
+
+                android:layout_height="21sp" />
+            <ImageView
+                android:layout_width="21sp"
+                android:visibility="gone"
+                android:layout_marginTop="20dp"
+                android:id="@+id/false3"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_close_black_24dp"
+
+                android:layout_height="21sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="21dp"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/tvoption3"
+                    android:layout_marginTop="20dp"
+                    android:text="option 3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="21sp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/true4"
+                android:layout_marginRight="5dp"
+                android:visibility="gone"
+                android:src="@drawable/ic_check_black_24dp"
+
+                android:layout_height="21sp" />
+            <ImageView
+                android:layout_width="21sp"
+                android:visibility="gone"
+                android:layout_marginTop="20dp"
+                android:id="@+id/false4"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_close_black_24dp"
+
+                android:layout_height="21sp" />
+                <TextView
+                    android:id="@+id/tvoption4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="21dp"
+                    android:textColor="@android:color/black"
+
+                    android:layout_marginTop="20dp"
+                    android:text="option 4"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="21sp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/true5"
+                android:layout_marginRight="5dp"
+                android:visibility="gone"
+                android:src="@drawable/ic_check_black_24dp"
+
+                android:layout_height="21sp" />
+            <ImageView
+                android:layout_width="21sp"
+                android:visibility="gone"
+                android:layout_marginTop="20dp"
+                android:id="@+id/false5"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_close_black_24dp"
+
+                android:layout_height="21sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="answer 5"
+                    android:textSize="21dp"
+                    android:layout_marginTop="20dp"
+
+                    android:textColor="@android:color/black"
+                    android:id="@+id/tvoption5"/>
+
+
+        </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Correct the all answer to move on next level !"
+                android:textStyle="bold"
+                android:id="@+id/tvshow2"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/holo_red_light"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="You can correct the answer by clicking on it !"
+                android:textStyle="bold"
+                android:id="@+id/tvshow1"
+                android:visibility="gone"
+                android:layout_marginTop="5dp"
+                android:textColor="#3498db"
+                />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnnextlevel"
+                android:text="Next Level"
+                android:background="#3498db"
+                android:textColor="@android:color/white"
+                android:textAllCaps="false"
+                android:layout_gravity="right"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
